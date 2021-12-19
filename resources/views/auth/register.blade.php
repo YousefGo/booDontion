@@ -34,7 +34,7 @@
 
 
             <div class="mt-4">
-                <x-label for="facility" :value="__('facility')" />
+                <x-label for="facility" :value="__('department')" />
 
                 <x-input id="email" class="block mt-1 w-full" type="text" name="facility" :value="old('facility')"  />
             </div>
